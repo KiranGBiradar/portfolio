@@ -40,6 +40,12 @@ gap:80px;
 
 }
 
+/* .profile_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+} */
+
 .about-para{
 display: flex;
 flex-direction: column;
