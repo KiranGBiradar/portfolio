@@ -33,6 +33,11 @@ position: relative;
     gap: 80px;
 }
 
+.about-left{
+    display: flex;
+    margin-bottom:0px;
+}
+
 .about-right{
 display: flex;
 flex-direction: column;
@@ -40,11 +45,12 @@ gap:80px;
 
 }
 
-/* .profile_img{
+.profile_img{
     width: 300px;
     height: 300px;
-    border-radius: 100px;
-} */
+    border-radius: 300px;
+    margin-top: 0px;
+}
 
 .about-para{
 display: flex;

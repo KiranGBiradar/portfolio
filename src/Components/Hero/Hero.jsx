@@ -17,7 +17,10 @@ const Hero = () => {
 
         <h1> Hello,<br/>
           <span>I'm Kirankumar Biradar, </span><br/> Frontend developer</h1>
-        <p>Work experience :  </p>
+        <p>Work experience : "With over 2.5+ years of hands-on experience as a frontend developer,
+           I have transformed complex design visions into dynamic, 
+           user-friendly interfaces, consistently pushing the boundaries 
+           of web aesthetics and functionality."</p>
 
         
         <div className="hero-action">
