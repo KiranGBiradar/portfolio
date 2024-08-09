@@ -85,6 +85,12 @@
     height: 100%;
   }
 
+  /* .mywork-container img:hover {
+    transition: .3s;
+    transform: 1.02;
+    
+   } */
+
   .mywork-showmore{
     padding: 10px 25px;
     font-size: 18px;

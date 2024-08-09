@@ -82,9 +82,9 @@ margin-bottom: 80px;
 
     .services{
         align-items: start;
-        gap: 70px;
-        margin: 20px 70px;
-
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .services-title h1{
@@ -120,7 +120,9 @@ margin-bottom: 80px;
 
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
+        margin: 10px 10px;
+        
     }
 
     

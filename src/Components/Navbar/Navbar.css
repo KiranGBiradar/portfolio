@@ -61,26 +61,31 @@ color: black;
 
 
 
-@media(max-width:768px) {
+@media(max-width:768px){
     .navbar{
-        margin: 0px 30px;
+        margin: 30px 40px;
     }
+
+    .profile_logo{
+        margin-left: -10px;
+    }
+ 
     .nav-connect{
         display: none;
     }
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right:20px;
         height: 40px;
         width: 25px;
-        margin-right: 50px;
+        margin-right: 10px;
     }
     
     .nav-mob-close{
         display: block;
-        top: 10px;
-        margin: 20px 30px;
+        top: 20px;
+        margin: 30px 100px;
         left: 10px;
         width: 25px;
         height: 40px;
@@ -98,17 +103,17 @@ color: black;
         transition: right 0.5s ;
         right: -250px;
         
-    }
+        
 
-   
+    }
 
     .nav-menu li{
         font-size: 25px;
         padding-left: 20px;
-        flex-direction: row;
+        margin:0px 0px;
+        flex-direction:row;
         align-items: center;
-        gap: -50px;
-        
+        gap: 50px;
     }
 
 
