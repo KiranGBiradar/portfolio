@@ -10,11 +10,11 @@
 }
 
 .profile_logo{
-    width: 30px;
+    width: 40px;
     height: 40px;
-    border-radius: 80px;
-   margin-left: 20px;
-   margin-top: 10px;
+    border-radius: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 
@@ -34,8 +34,6 @@
     text-decoration: none;
     color: #fff;
 }
-
-
 
 .nav-connect{
 padding: 10px 25px;
@@ -60,6 +58,10 @@ color: black;
 .nav-mob-open{
     display: none;
 }
+
+
+
+
 
 @media(max-width:768px){
     .navbar{

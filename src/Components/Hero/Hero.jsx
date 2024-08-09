@@ -1,6 +1,6 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-// import profile_img from "../../assets/Picture1.jpg";
+import logo_icon from "../../assets/logo_icon.jpg";
 
 import React from 'react'
 
@@ -13,7 +13,7 @@ const Hero = () => {
     
     <div id="home" className="hero">
 
-        {/* <img src={profile_img} alt="" className="profile_img" /> */}
+        <img src={logo_icon} alt="" className="profile_img" />
 
         <h1> Hello,<br/>
           <span>I'm Kirankumar Biradar, </span><br/> Frontend developer</h1>

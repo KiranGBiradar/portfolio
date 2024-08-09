@@ -1,6 +1,6 @@
 
 import "./Navbar.css"
-import logo from "../../assets/Profile_logo2.jpg"
+import logo_icon from "../../assets/logo_icon.jpg"
 import React, { useRef, useState } from 'react'
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import menu_open from '../../assets/menu_open.svg'
@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
 
-        <img src={logo} alt="" className="profile_logo" />
+        <img src={logo_icon} alt="" className="profile_logo" />
         <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
 
         <ul ref={menuRef} className="nav-menu">
